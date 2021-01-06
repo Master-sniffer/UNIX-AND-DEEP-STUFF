@@ -1,0 +1,78 @@
+1) cat /etc/passwd тоже самое и с другими
+
+2) sudo groupadd workers    Так делаем и с другими группами
+
+3) sudo useradd user_2001    Так делаем до юзера 2005 года
+
+4)sudo usermod -aG workers user_2001
+  sudo usermod -aG workers user_2002
+
+5) sudo usermod -aG students user_2003
+   sudo usermod -aG students user_2004
+   sudo usermod -aG students user_2005
+
+
+6) sudo useradd student -u3000
+   sudo usermod -c "danilka" student
+   sudo usermod -u 3000 student
+
+7) sudo passwd student и так с юзерами 2001 2002 и тд
+
+8) cd 
+   mkdir labs
+   cd labs
+   mkdir library 
+   mkdir tests
+
+9) touch book_soloden_5
+   cp book_soloden_5 library
+
+10) touch test_Danila
+    cp test_Danila tests
+    cd tests
+    sudo passwd root (пишем 12345)
+    su -
+    cd ..
+    cd home
+    cd ваш юзернэйм
+    cd labs
+    cd tests
+    xed test_Danila
+
+В файле пишем это
+
+#!/bin/bash
+sudo useradd user_5
+echo -e "54321\n54321\n" | passwd user_5
+
+
+И начинаем запуск
+
+sudo chgrp students test_Danila
+./test_Danila
+
+
+11) cd ..
+    ls-a /etc > list
+
+12) sudo chmod +r list
+    sudo chmod u=w list
+
+
+
+13) sudo chown :teachers library
+    sudo chmod +x library
+    sudo chmod o-r library    
+
+
+
+
+
+umask 0077
+mkdir test
+ls -lh
+chmod  g+wx test 
+ls -lh
+
+
+

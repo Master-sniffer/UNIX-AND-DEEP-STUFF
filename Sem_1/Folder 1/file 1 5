@@ -1,0 +1,60 @@
+  764  man ps
+  765  ps -a
+  766  ps -aux
+  767  pa aux
+  768  ps aux
+  769  ps
+  770  ps -a
+  771  ps d
+  772  ps -d
+  773  ps A
+  774  ps - A
+  775  ps -A
+  776  ps aux
+  777  ps -e fores
+  778  ps -e -forest
+  779  ps -C 
+  780  ps -C sshd
+  781  ps aux
+  782  kill nano
+  783  sudo kill nano
+  784  pkill -f nano
+  785  ps aux
+  786  cd ..
+  787  locate .html
+  788  man bash
+  789  jobs
+  790  fg man bash
+  791  bg
+  792  jobs
+  793  jobs 1
+  794  fg 7
+  795  jobs jobID
+  796  ps aux | jobs
+  797  ps aux
+  798  firefox &
+  799  jobs
+  800  jobs -n
+  801  jobs -r
+  802  jobs -s
+  803  kill firefox
+  804  fg man bash
+  805  man bash &
+  806  fg man bash
+  807  man kill
+  808  kill (1)
+  809  kill 1
+  810  kill 2
+  811  kill 8417
+  812  kill 8373
+  813  ps --sort=-pcpu
+  814  ps aux | sort -n -k 3
+  815  man ps
+  816  ps axjf
+  817  man ps
+  818  ps aux
+  819  ps sort %AUX
+  820  ps -sort %AUX
+  821  man ps
+  822  ps aux --sort rss
+

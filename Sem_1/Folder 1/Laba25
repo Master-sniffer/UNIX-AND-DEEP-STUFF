@@ -1,0 +1,9 @@
+#!/bin/bash
+man arp
+man ifconfig
+man netstat
+man nslookup
+man route
+man ping
+man hostname
+
